@@ -1,7 +1,8 @@
 import pandas as pd
 import pytest
-from src.preprocess import FEATURES, prepare_data, build_pipeline
 from sklearn.linear_model import LogisticRegression
+
+from src.preprocess import FEATURES, build_pipeline, prepare_data
 
 
 def example_data():
